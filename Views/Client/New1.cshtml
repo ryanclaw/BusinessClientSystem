@@ -51,7 +51,13 @@
                        <div class="form-group">
                           <div class="col-xs-6">
                               <label for="salutation"><h4>Salutation</h4></label>
-                              <input type="text" class="form-control" name="salutation" id="salutation" placeholder="salutation" title="client salutation.">
+                             <!-- <input type="" class="form-control" name="salutation" id="salutation" placeholder="salutation" title="client salutation.">-->
+                              <input list="salutation" class="form-control" name="salutation" id="salutation" placeholder="salutation" title="client salutation">
+                                <datalist id="salutation">
+                                    <option value="mr">Mr</option>
+                                    <option value="ms">Miss</option>
+                                    <option value="mrs">Mrs</option>
+                                    </datalist>
                           </div>
                       </div>
 
@@ -60,8 +66,8 @@
                               <label for="gender"><h4>Gender</h4></label>
                               <!--<input type="text" class="form-control" name="gender" id="gender" placeholder="gender" title="client gender.">-->
                                <br/>
-                               <input list="browsers" class="form-control" name="gender" id="gender" placeholder="gender" title="client Gender">
-                                <datalist id="browsers">
+                               <input list="gender" class="form-control" name="gender" id="gender" placeholder="gender" title="client Gender">
+                                <datalist id="gender">
                                     <option value="Male">Male</option>
                                     <option value="Female">Female</option>
                                     <option value="Other">Other</option>
