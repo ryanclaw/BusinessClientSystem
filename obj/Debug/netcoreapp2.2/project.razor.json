@@ -2976,11 +2976,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Client\\New.cshtml",
-      "TargetPath": "Views\\Client\\New.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -2993,11 +2988,6 @@
     {
       "FilePath": "Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Client\\Update1backup.cshtml",
-      "TargetPath": "Views\\Client\\Update1backup.cshtml",
       "FileKind": "mvc"
     },
     {
