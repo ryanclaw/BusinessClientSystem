@@ -61,14 +61,11 @@ C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Busines
 C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Login.g.cshtml.cs
 C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Auth\Register.g.cshtml.cs
 C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Index.g.cshtml.cs
-C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\New.g.cshtml.cs
 C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\New1.g.cshtml.cs
 C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Profile.g.cshtml.cs
 C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Sample.g.cshtml.cs
 C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Search.g.cshtml.cs
-C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Update.g.cshtml.cs
 C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Update1.g.cshtml.cs
-C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Update1backup.g.cshtml.cs
 C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
 C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contact.g.cshtml.cs
 C:\Users\rfernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index backup.g.cshtml.cs
