@@ -28,8 +28,6 @@ C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Bus
 C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\BusinessClientSystem.pdb
 C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\BusinessClientSystem.csproj.CopyComplete
 C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Index.g.cshtml.cs
-C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\New.g.cshtml.cs
-C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Update.g.cshtml.cs
 C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Profile.g.cshtml.cs
 C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\New1.g.cshtml.cs
 C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Sample.g.cshtml.cs
@@ -40,7 +38,6 @@ C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Raz
 C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout - Copy.g.cshtml.cs
 C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
 C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contact.g.cshtml.cs
-C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Update1backup.g.cshtml.cs
 C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index backup.g.cshtml.cs
 C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Client\Search.g.cshtml.cs
 C:\Users\Ryan Fernandez\Desktop\BusinessClientSystem\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout-10-14.g.cshtml.cs

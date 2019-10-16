@@ -3041,11 +3041,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Client\\Update.cshtml",
-      "TargetPath": "Views\\Client\\Update.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "Views\\Shared\\_Layout - Copy.cshtml",
       "TargetPath": "Views\\Shared\\_Layout - Copy.cshtml",
       "FileKind": "mvc"
