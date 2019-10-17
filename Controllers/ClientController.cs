@@ -27,12 +27,12 @@ namespace BusinessClientSystem.Controllers
          }
 
          [HttpPost]
-         public RedirectResult New1( string salutation, string firstname, string lastname, 
+         public RedirectResult New1(int id, string salutation, string firstname, string lastname, 
          string gender, string dateofbirth, string address1, string address2, int phone1, int phone2, string email)
          {
             BusinessClient cs = new BusinessClient();
             Clients newClient = new Clients();
-           // newClient.id = id;
+            newClient.id = id;
             newClient.salutation = salutation;
             newClient.firstname = firstname;
             newClient.lastname = lastname;
