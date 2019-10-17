@@ -27,7 +27,7 @@ namespace BusinessClientSystem.Models
 
             //string cmdText = "insert into products values("+p.Id+", "+p.Name+", "+p.Brand+""+ p.Price +");";
             //Code below is the new way of inserting value to DB via variable cmdText
-           string cmdText = $"insert into clients values({c.id}, '{c.salutation}', '{c.firstname}', '{c.lastname}', '{c.gender}', '{c.dateofbirth}','{c.address1}','{c.address2}', {c.phone1}, {c.phone2}, '{c.email}')";
+           string cmdText = $"insert into clients values({c.id}, '{c.salutation}', '{c.firstname}', '{c.lastname}', '{c.gender}', '{c.contacttype}', '{c.dateofbirth}','{c.address1}','{c.address2}', {c.phone1}, {c.phone2}, '{c.email}','{c.product}')";
             MySqlCommand cmd = new MySqlCommand (cmdText, con);
             cmd.ExecuteNonQuery();
             
