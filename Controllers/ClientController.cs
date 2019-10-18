@@ -57,6 +57,13 @@ namespace BusinessClientSystem.Controllers
             return View();
          }
 
+           public IActionResult Profile1(int id)
+         {
+            BusinessClient cs = new BusinessClient();
+            ViewData["clients"] = cs.getClients(id);
+            return View();
+         }
+
          [HttpPost]
          public RedirectResult New( string salutation, string firstname, string lastname, 
          string gender, string dateofbirth, string address1, string address2, int phone1, int phone2, string email)
