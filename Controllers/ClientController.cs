@@ -146,7 +146,7 @@ namespace BusinessClientSystem.Controllers
             newClient.product = product;
             cs.updateClientToDB(newClient);
             return Redirect("/Client");
-        }
+            }
 
         public IActionResult Search()
         {
@@ -175,9 +175,9 @@ namespace BusinessClientSystem.Controllers
             return View();
             }
              
-        }
+            }
 
-        public IActionResult Search1(string SearchText)
+            public IActionResult Search1(string SearchText)
             {
             BusinessClient cs = new BusinessClient();
             // os.GenerateProducts();
@@ -187,8 +187,8 @@ namespace BusinessClientSystem.Controllers
              }
 
              public IActionResult AdvanceSearch()
-        {
+            {
             return View();
-        }
+            }
     }
 }
