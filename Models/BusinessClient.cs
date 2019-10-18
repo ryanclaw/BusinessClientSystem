@@ -75,12 +75,14 @@ namespace BusinessClientSystem.Models
                 c.firstname = result["firstName"].ToString();
                 c.lastname = result["lastName"].ToString();
                 c.gender = result["gender"].ToString();
+                 c.contacttype = result["contacttype"].ToString();
                 c.dateofbirth = result["dateofbirth"].ToString();
                 c.address1 = result["address1"].ToString();
                 c.address2 = result["address2"].ToString();
                 c.phone1 = Convert.ToInt32(result["phone1"]);
                 c.phone2 = Convert.ToInt32(result["phone2"]);
                 c.email = result["email"].ToString();
+                c.product = result["product"].ToString();
                 clients.Add(c);
             }
 
