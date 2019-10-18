@@ -126,8 +126,8 @@ namespace BusinessClientSystem.Controllers
             }
          
          [HttpPost]
-         public RedirectResult Update1(int id, string salutation, string firstname, string lastname, string gender,
-         string dateofBirth, string address1, string address2, int phone1, int phone2, string email)
+         public RedirectResult Update1(int id, string salutation, string firstname, string lastname, string gender, string contacttype,
+         string dateofBirth, string address1, string address2, int phone1, int phone2, string email, string product)
          {
             BusinessClient cs = new BusinessClient();
             Clients newClient = new Clients();
@@ -136,12 +136,14 @@ namespace BusinessClientSystem.Controllers
             newClient.firstname = firstname;
             newClient.lastname = lastname;
             newClient.gender = gender;
+            newClient.contacttype = contacttype;
             newClient.dateofbirth = dateofBirth;
             newClient.address1 = address1;
             newClient.address2 = address2;
             newClient.phone1 = phone1;
             newClient.phone2 = phone2;
             newClient.email = email;
+            newClient.product = product;
             cs.updateClientToDB(newClient);
             return Redirect("/Client");
         }
