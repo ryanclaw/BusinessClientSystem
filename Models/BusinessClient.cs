@@ -139,7 +139,7 @@ namespace BusinessClientSystem.Models
             MySqlConnection con = new MySqlConnection(connection);
             con.Open();
 
-             string cmdText = $"select * from clients where name like '%{searchText}%';";
+             string cmdText = $"select * from clients where lastname like '%{searchText}%';";
              //creating the mysql command /query that I want to run
             MySqlCommand cmd = new MySqlCommand (cmdText, con);
            

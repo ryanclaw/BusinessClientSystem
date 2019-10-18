@@ -177,7 +177,7 @@ namespace BusinessClientSystem.Controllers
              
         }
 
-        public IActionResult Search(string SearchText)
+        public IActionResult Search1(string SearchText)
             {
             BusinessClient cs = new BusinessClient();
             // os.GenerateProducts();
@@ -185,5 +185,10 @@ namespace BusinessClientSystem.Controllers
             return View();
 
              }
+
+             public IActionResult AdvanceSearch()
+        {
+            return View();
+        }
     }
 }
