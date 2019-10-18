@@ -12,14 +12,14 @@
   <thead>
     <tr>
       <th scope="col" hidden >ID</th>
-      <th scope="col">Salutation</th>
+      <th scope="col" hidden >Salutation</th>
       <th scope="col">Name</th>
       <th scope="col">Gender</th>
       <th scope="col">Date Of Birth</th>
       <th scope="col">Primary Address</th>
-      <th scope="col">Alternate Address</th>
+      <th scope="col" hidden >Alternate Address</th>
       <th scope="col">Primary Contact Number</th>
-      <th scope="col">Alternate Contact Number</th>
+      <th scope="col"hidden >Alternate Contact Number</th>
       <th scope="col">Email</th>
     </tr>
   </thead>
@@ -28,14 +28,14 @@
     {
         <tr>
           <td hidden>@item.id</td>
-          <td>@item.salutation</td>
+          <!--<td>@item.salutation</td>-->
           <td>@item.firstname @item.lastname</td>
           <td>@item.gender</td>
           <td>@item.dateofbirth</td>
           <td>@item.address1</td>
-          <td>@item.address2</td>
+          <!--<td>@item.address2</td>-->
           <td>@item.phone1</td>
-          <td>@item.phone2</td>
+          <!--<td>@item.phone2</td>-->
           <td>@item.email</td>
           <td>
             <a href="/client/profile1?id=@item.id" class="btn btn-info">Profile</a>
