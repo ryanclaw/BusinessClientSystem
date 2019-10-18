@@ -1,4 +1,4 @@
-namespace SessionManagement.Models
+namespace BusinessClientSystem.Models
 {
   public class User
   {
