@@ -2,7 +2,7 @@
     string title = "Search Result";
     string ClientList = "List of Clients";
 
-    List<Client> Clients = (List<Client>) ViewData["clients"];
+    List<Clients> Clients = (List<Clients>) ViewData["clients"];
 
 }
 
@@ -16,24 +16,23 @@
   
  
 
-@foreach (var item in clients)
+@foreach (var item in Clients)
 {
     <div class="card" style="border: 1px solid lightgrey">
         <div class="card-body">
-          <p>@item.firstname @item.lastname</td>
-          <p>Gender: @item.gender</td>
-          <p> Date of Birth: @item.dateofbirth</td>
-          <p>Primary Address: @item.address1</td>
+          <p>@item.firstname @item.lastname</p>
+          <p>Gender: @item.gender</p>
+          <p> Date of Birth: @item.dateofbirth</p>
+          <p>Primary Address: @item.address1</p>
           <!--<td>@item.address2</td>-->
-          <p>Primary Phone: @item.phone1</td>
+          <p>Primary Phone: @item.phone1</p>
           <!--<td>@item.phone2</td>-->
-          <p>Primary Email: @item.email</td>
-          
-            
-        </div>
-        <div class="card-footer">
+          <p>Primary Email: @item.email</p>
+                      
+         </div>
+            <div class="card-footer">
             <button class="btn btn-primary">Buy</button>
-        </div>
+            </div>
     </div>
     <p></p>
 
