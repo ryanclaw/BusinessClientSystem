@@ -174,9 +174,16 @@ namespace BusinessClientSystem.Controllers
             ViewData["clients"] = cs.getClientsFromDb();
             return View();
             }
-            
-             
              
         }
+
+        public IActionResult Search(string SearchText)
+            {
+            BusinessClient cs = new BusinessClient();
+            // os.GenerateProducts();
+            ViewData["clients"] = cs.searchClientsByName(SearchText);
+            return View();
+
+             }
     }
 }

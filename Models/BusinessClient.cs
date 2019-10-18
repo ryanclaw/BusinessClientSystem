@@ -128,6 +128,49 @@ namespace BusinessClientSystem.Models
             con.Close();
             }
 
+
+
+            public List<Clients> searchClientsByName(string searchText)
+            {
+            List<Clients>clients = new List<Clients>();
+
+            //creating and opening the mysql conenction
+            string connection = "server=localhost;database=businessclientsystem;user=dbuser;password=123qweasdzxc;port=3306";
+            MySqlConnection con = new MySqlConnection(connection);
+            con.Open();
+
+             string cmdText = $"select * from clients where name like '%{searchText}%';";
+             //creating the mysql command /query that I want to run
+            MySqlCommand cmd = new MySqlCommand (cmdText, con);
+           
+             //Execute the command
+            var result = cmd.ExecuteReader();
+
+            //prepare our results
+            while (result.Read())
+            {
+                Clients c = new Clients();
+                c.id = Convert.ToInt32(result["id"]);
+                c.salutation = result["salutation"].ToString();
+                c.firstname = result["firstName"].ToString();
+                c.lastname = result["lastName"].ToString();
+                c.gender = result["gender"].ToString();
+                 c.contacttype = result["contacttype"].ToString();
+                c.dateofbirth = result["dateofbirth"].ToString();
+                c.address1 = result["address1"].ToString();
+                c.address2 = result["address2"].ToString();
+                c.phone1 = Convert.ToInt32(result["phone1"]);
+                c.phone2 = Convert.ToInt32(result["phone2"]);
+                c.email = result["email"].ToString();
+                c.product = result["product"].ToString();
+                clients.Add(c);
+            }
+
+            con.Close();
+
+            return clients;
+        }
+
               
            
             

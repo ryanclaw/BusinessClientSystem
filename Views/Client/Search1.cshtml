@@ -1,0 +1,41 @@
+@{
+    string title = "Search Result";
+    string ClientList = "List of Clients";
+
+    List<Client> Clients = (List<Client>) ViewData["clients"];
+
+}
+
+<h2>@title</h2>
+<p>@ClientList</p>
+
+@if(Clients.Count() == 0)
+{
+<h3>No Client Found</h3>
+}
+  
+ 
+
+@foreach (var item in clients)
+{
+    <div class="card" style="border: 1px solid lightgrey">
+        <div class="card-body">
+          <p>@item.firstname @item.lastname</td>
+          <p>Gender: @item.gender</td>
+          <p> Date of Birth: @item.dateofbirth</td>
+          <p>Primary Address: @item.address1</td>
+          <!--<td>@item.address2</td>-->
+          <p>Primary Phone: @item.phone1</td>
+          <!--<td>@item.phone2</td>-->
+          <p>Primary Email: @item.email</td>
+          
+            
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary">Buy</button>
+        </div>
+    </div>
+    <p></p>
+
+    
+}
