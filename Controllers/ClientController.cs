@@ -37,6 +37,7 @@ namespace BusinessClientSystem.Controllers
             newClient.firstname = firstname;
             newClient.lastname = lastname;
             newClient.gender =  gender;
+            newClient.contacttype = contacttype;
             newClient.dateofbirth = dateofbirth;
             newClient.address1 = address1;
             newClient.address2 = address2;
@@ -44,6 +45,7 @@ namespace BusinessClientSystem.Controllers
             newClient.phone2 = phone2;
             newClient.gender = gender;
             newClient.email = email;
+            newClient.product = product;
             cs.addClientToDB(newClient);
             return Redirect("/Client");
          }
