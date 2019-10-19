@@ -19,17 +19,17 @@ namespace BusinessClientSystem.Controllers
  public IActionResult About()
         {
             // check whether user has a valid session or not. if not we wanna restrict the user from about page
-                 var user = HttpContext.Session.GetString("user");
-                 if(user == null)
-                 {
-                 return Redirect("/auth/login");
-                 }
-                 else
-                 {
-                 ViewData["Message"] = "Your application description page.";
-                 return View();
-                 }
-            //return View();
+               //  var user = HttpContext.Session.GetString("user");
+                // if(user == null)
+                // {
+                // return Redirect("/auth/login");
+                // }
+                // else
+                // {
+                // ViewData["Message"] = "Your application description page.";
+                // return View();
+                // }
+            return View();
         }
 
         
